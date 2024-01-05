@@ -16,12 +16,48 @@
   }
 }
 
+
+@font-face {
+  font-family: "Brandon Bold";
+  src: url("/font/brandon_text_bold/brandon_text_bold.otf") format("truetype"),
+  /* Add other formats if necessary */;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poynter Bold";
+  src: url("/font/Poynter-Font/PoynterText-Bold.ttf") format("truetype"),
+  /* Add other formats if necessary */;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Cervo Medium Neue";
+  src: url("/font/Demo_Fonts/Cervo_Medium_Neue.otf") format("truetype"),
+  /* Add other formats if necessary */;
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sentinel Book";
+  src: url("/font/Sentinel-Book/Sentinel-Book.ttf") format("truetype"),
+  /* Add other formats if necessary */;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bon Vivant";
+  src: url("/font/Bon-Vivant-Font/BonVivant-Regular.ttf") format("truetype"),
+  /* Add other formats if necessary */;
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background: #F9ECE5;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
